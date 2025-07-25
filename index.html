@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- add fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>3D Modeling</title>
+  </head>
+  <body>
+    <script type="module" src="./src/main.js"></script>
+<header>
+  <div class="header-bar" id="home">
+   <nav class="flex" style="justify-content: space-between;">
+    <img class="logo" src="./images/logo.svg" alt="Logo"/>
+    <div class="flex nav-div-flex">
+
+    <button class="mobile-nav-toggle" aria-controls="main-nav" aria-expanded="false">
+    <span class="sr-only">Menu</span>X</button>
+    <ul class="main-nav flex" id="main-nav" data-visible="false">
+      <li><a href="#media">Media</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <ul class="nav-icons">
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </nav>
+</div>
+<div class="header_pic_container">
+  <img class="bg-header-pic" src="./images/background_header_pic.jpg" alt="pic">
+  <div class="header-pic-inside-elements">
+    <h1 class="fw-bold">Design your own <span class="clr-accent-100"> 3D</span> models</h1>
+    <p class="clr-main-50 fs-40">And let your imagination flow</p>
+ <button class="button">Welcome in 3D world</button>
+  </div>
+</div>
+</header>
+
+<main>
+  <div class="grid main-grid-rows">
+    <section>
+      <div class="grid main-grid-cols">
+        <div class="column media-size">
+          <p class="fs-60 fw-regular">Gaining a lot of experience</p>
+        </div>
+        <div class="column media-size">
+          <p class=" fs-60 fw-bold clr-accent-50">About us</p>
+          <h2 class="fw-bold fs-80">Creative models and work with professionalists</h2>
+        </div>
+        <div class="column grid">
+          <p class="p-smaller clr-main-50 fs-20">At its core, 3D modeling involves constructing a mesh—a collection of vertices, edges, and faces—that defines the shape and structure of an object. These models can be simple geometric forms or highly detailed, organic shapes.</p>
+          <button class="button" data-type="inverted">Continue reading</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel_section">
+     <ul class="carousel">
+      <li>
+        <p class="fs-40 clr-accent-100 fw-bold carousel_text">Design Your own furnitures</p>
+      </li>
+      <li>
+        <p class="fs-40 clr-main-revised fw-bold carousel_text">Create Your favourite food</p>
+        </li>
+      <li>
+        <p class="fs-40 clr-main-100 fw-bold carousel_text">Make your characters come to life</p>
+      </li>
+     </ul>
+    </section>
+    <section>
+      <div>
+        <h2 class="quote clr-main-50"><i>The magic of 3D modeling isn't just in the polygons and vertices—it's in the way it turns imagination into reality, letting creators shape worlds from nothing but an idea."</i>"</h2>
+    </section>
+    </main>
+    <section class="unset_properties">
+      <div class="slider" id="media">
+        <div class="slider_elements">
+          <a href="https://www.blender.org/" target="_blank"><img src="./images/blender_logo.svg" alt="blender_logo"></a>
+          <a href="https://sketchup.com.pl/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/SketchUp_Logo_2020.svg" alt="Sketch_up_logo"></a>
+          <a href="https://www.maxon.net/en/zbrush" target="_blank"><img src="./images/zbrush-seeklogo.svg" alt="ZBrush_logo"></a>
+          <a href="https://www.instagram.com/nwtnat/" target="_blank"><img src="./images/instagram-follow.svg" alt="instagram-follow_logo"></a>
+          <a href="https://www.facebook.com/natalia.wozniakowska.75" target="_blank"><img src="./images/icons8-facebook.svg" alt="facebook_icon"></a>
+        </div>
+    
+        <div class="slider_elements">
+          <a href="https://www.blender.org/" target="_blank"><img src="./images/blender_logo.svg" alt="blender_logo"></a>
+          <a href="https://sketchup.com.pl/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/SketchUp_Logo_2020.svg" alt="Sketch_up_logo"></a>
+          <a href="https://www.maxon.net/en/zbrush" target="_blank"><img src="./images/zbrush-seeklogo.svg" alt="ZBrush_logo"></a>
+          <a href="https://www.instagram.com/nwtnat/" target="_blank"><img src="./images/instagram-follow.svg" alt="instagram-follow_logo"></a>
+          <a href="https://www.facebook.com/natalia.wozniakowska.75" target="_blank"><img src="./images/icons8-facebook.svg" alt="facebook_icon"></a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <footer>
+        <div  class="flex" style="gap: 2rem;">
+       <ul class="footer_nav flex">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#media">Media</a></li>
+    </ul>
+      </div>
+    <div class="contact clr-main-50" id="contact">
+    <p>Tel: <span class="fw-bold">xxx xxx xxx</span></p>
+    <p>Email: <span class="fw-bold">xxxx@xxxx.xxx</span></p>
+    <p>Adres: <span class="fw-bold">xxxx xxx xxxx</span></p>
+    </div>
+
+    <div class="credits">
+    <p>Design by Natalia Woźniakowska</p>
+    <p>Images from Freepik — <a href="https://www.freepik.com" target="_blank">www.freepik.com</a></p>
+    </div>    
+  </footer>
+  </section>
+  </div>
+
+  </body>
+</html>
